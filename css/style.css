@@ -98,3 +98,22 @@ img {
 p {
     color: #555;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px 0;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote blockquote span {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    font-weight: 600;
+}
