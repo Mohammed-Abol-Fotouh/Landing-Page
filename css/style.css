@@ -117,3 +117,43 @@ p {
     margin-top: 20px;
     font-weight: 600;
 }
+
+.contact {
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 80px auto;
+}
+
+.contact.container {
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.contact .info h3{
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.contact .info p {
+    color: #f9faf8;
+    margin-top: 0;
+}
+
+.contact button {
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 1px solid #f9faf8;
+    outline: 0;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    color: #f9faf8;
+}
