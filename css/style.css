@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -23,12 +27,16 @@ nav h2 {
 }
 
 nav ul {
-    color: #e5e7eb;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 16px;
     list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 section.about {
